@@ -21,7 +21,7 @@ cd project_name
 
 - [x] Structure sass files
 - [x] Structure js files
-- [ ] Home example
+- [x] Home example
 
 ## License 
 

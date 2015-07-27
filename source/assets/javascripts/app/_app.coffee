@@ -4,7 +4,8 @@ App = ->
 
 # Initialize
 App.prototype.init = -> 
-  @set_libs()
+  @setLibs()
+  @loadFonts()
   Router.dispatch()
 
 # Configure routes
@@ -15,8 +16,14 @@ App.prototype.routes = ->
     new About()
 
 # Set libs
-App.prototype.set_libs = -> 
+App.prototype.setLibs = -> 
   $(document).foundation()
   FastClick.attach(document.body)
+
+# Google fonts
+App.prototype.loadFonts = -> 
+  WebFont.load 
+    google: 
+      families: ['PT Serif']
 
 window.App = App

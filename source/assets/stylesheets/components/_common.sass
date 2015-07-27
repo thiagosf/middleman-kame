@@ -1,0 +1,43 @@
+// Main title
+h1.main-title 
+  text-align: center
+  letter-spacing: -1px
+  font-size: 32px
+  line-height: 1.4
+  margin: 0 0 20px 0
+  &::after, 
+  &::before 
+    content: ""
+    border-bottom: 2px solid black
+    height: 0
+    width: 40px
+    display: none
+    vertical-align: top
+    @media #{$medium-up}
+      display: inline-block
+      margin: 25px 20px 0 0
+    @media #{$large-up}
+      margin-top: 35px
+  &::after
+    @media #{$medium-up}
+      margin: 25px 0 0 20px
+    @media #{$large-up}
+      margin-top: 35px
+  @media #{$medium-up}
+    font-size: 36px
+    margin-bottom: 30px
+    letter-spacing: -2px
+  @media #{$large-up}
+    font-size: 48px
+    margin-bottom: 40px
+
+// Text-box
+.text-box 
+  p 
+    font-size: 18px
+    line-height: 1.4
+    @media #{$medium-up}
+      font-size: 20px
+    @media #{$large-up}
+      font-size: 24px
+      
