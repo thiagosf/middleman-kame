@@ -19,8 +19,8 @@ cd project_name
 
 ## TODO
 
-- [ ] Structure sass files
-- [ ] Structure js files
+- [x] Structure sass files
+- [x] Structure js files
 - [ ] Home example
 
 ## License 

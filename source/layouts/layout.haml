@@ -3,9 +3,8 @@
   %head
     %title= current_page.data.title || data.settings.meta.title
     %meta{ :charset => "utf-8" }
-    = stylesheet_link_tag "all"
-    = javascript_include_tag  "bundle"
-  %body
+    = stylesheet_link_tag "main"
+  %body{:"data-slug" => current_page.data.slug}
     %nav 
       %ul 
         %li 
@@ -13,3 +12,4 @@
         %li 
           = link_to 'About', 'about.html'
     = yield
+    = javascript_include_tag  "bundle"

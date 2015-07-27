@@ -1,10 +1,22 @@
+# App
 App = -> 
-  @name = "App"
-  @version = "1.0.0"
+  @routes()
 
+# Initialize
 App.prototype.init = -> 
-  console.log @name, ".init"
-  console.log @version if @version?
-  Utils.scrollTo 50
+  @set_libs()
+  Router.dispatch()
+
+# Configure routes
+App.prototype.routes = -> 
+  Router.connect "@home", -> 
+    new Home()
+  Router.connect "@about", -> 
+    new About()
+
+# Set libs
+App.prototype.set_libs = -> 
+  $(document).foundation()
+  FastClick.attach(document.body)
 
 window.App = App
