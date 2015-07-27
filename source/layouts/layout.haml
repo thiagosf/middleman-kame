@@ -1,0 +1,15 @@
+!!!
+%html
+  %head
+    %title= current_page.data.title || data.settings.meta.title
+    %meta{ :charset => "utf-8" }
+    = stylesheet_link_tag "all"
+    = javascript_include_tag  "bundle"
+  %body
+    %nav 
+      %ul 
+        %li 
+          = link_to 'Home', 'index.html'
+        %li 
+          = link_to 'About', 'about.html'
+    = yield

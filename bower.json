@@ -1,0 +1,27 @@
+{
+  "name": "middleman-kame",
+  "version": "0.0.0",
+  "authors": [
+    "Thiago Silva Ferreira <thiago@thiagosf.net>"
+  ],
+  "description": "Kame Template for Middleman with: foundation, sass, compass and haml.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "foundation",
+    "sass",
+    "compass",
+    "haml"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.2"
+  }
+}
