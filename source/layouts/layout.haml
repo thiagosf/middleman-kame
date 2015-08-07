@@ -2,7 +2,9 @@
 %html
   %head
     %title= current_page.data.title || data.settings.meta.title
-    %meta{ :charset => "utf-8" }
+    %meta{:charset => "utf-8"}
+    %meta{:name => "theme-color", :content => "#1e88e5" }
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
     = stylesheet_link_tag "main"
   %body{:"data-slug" => current_page.data.slug}
     %nav.main-nav 
