@@ -1,4 +1,5 @@
 //= require "jquery/dist/jquery.min"
+//= require "modernizr/modernizr"
 //= require "fastclick/lib/fastclick"
 //= require "foundation/js/foundation/foundation"
 //= require "foundation/js/foundation/foundation.interchange"
