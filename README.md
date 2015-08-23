@@ -17,13 +17,12 @@ Middleman Kame Template - with: foundation, sass, compass and haml.
 
 3.  Enjoy!
 
-  ## TODO
+## TODO
 
-  - [x] Structure sass files
-  - [x] Structure js files
-  - [x] Home example
+- [x] Structure sass files
+- [x] Structure js files
+- [x] Home example
 
 ## License 
 
 __Middleman Kame__ was created by Thiago Silva Ferreira and is distributed under the _MIT license._
-
