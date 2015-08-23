@@ -26,3 +26,4 @@ Middleman Kame Template - with: foundation, sass, compass and haml.
 ## License 
 
 __Middleman Kame__ was created by Thiago Silva Ferreira and is distributed under the _MIT license._
+
