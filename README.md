@@ -4,24 +4,24 @@ Middleman Kame Template - with: foundation, sass, compass and haml.
 
 ## Getting Started
 
-1.  Install __kame__ as Middleman template.
+1.  Install __kame__ as Middleman Template.
 
-`git clone https://github.com/thiagosf/middleman-kame.git ~/.middleman/kame`
+  `git clone https://github.com/thiagosf/middleman-kame.git ~/.middleman/kame`
 
 2.  Initialize a new Middleman project with the __kame__ template
 
-```
-middleman init project_name --template=kame
-cd project_name
-```
+  ```
+  middleman init project_name --template=kame
+  cd project_name
+  ```
 
 3.  Enjoy!
 
-## TODO
+  ## TODO
 
-- [x] Structure sass files
-- [x] Structure js files
-- [x] Home example
+  - [x] Structure sass files
+  - [x] Structure js files
+  - [x] Home example
 
 ## License 
 
